@@ -22,6 +22,11 @@ Ask questions about **any YouTube video** just by pasting a link — the chatbot
 
 ---
 
+<img width="2865" height="1497" alt="Screenshot 2025-12-05 210351" src="https://github.com/user-attachments/assets/010ba4ba-54be-45c4-9caa-27b85b264da8" />
+
+<img width="2876" height="1541" alt="Screenshot 2025-12-05 194425" src="https://github.com/user-attachments/assets/5c98fa23-9651-4863-bb60-565273952226" />
+
+
 ## 🏗️ Architecture
 
   ┌───────────────────────┐
