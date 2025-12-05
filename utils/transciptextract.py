@@ -1,5 +1,12 @@
 from youtube_transcript_api import YouTubeTranscriptApi
-transcript = YouTubeTranscriptApi()
+from youtube_transcript_api.proxies import WebshareProxyConfig
+import os
+transcript = YouTubeTranscriptApi(
+    proxy_config=WebshareProxyConfig(
+        proxy_username=os.getenv("WEBSHARE_USER"),
+        proxy_password=os.getenv("WEBSHARE_PASS")
+    )
+)
 
 def load_language(id):
     a = transcript.list(video_id=id)
