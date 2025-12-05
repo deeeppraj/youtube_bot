@@ -1,0 +1,13 @@
+langchain
+langchain-groq
+langchain_text_splitters
+langchain-community
+dotenv
+pydantic
+youtube-transcript-api
+langchain-nvidia-ai-endpoints
+faiss-cpu
+streamlit
+googletrans
+fastapi
+uvicorn[standard]
